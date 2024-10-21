@@ -1,0 +1,14 @@
+{
+  "name": "MPEnv",
+  "dockerComposeFile": ["../compose.yaml"],
+  "service": "server",
+  "workspaceFolder": "/var/www/html",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  },
+  "forwardPorts": [80]
+}
